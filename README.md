@@ -13,7 +13,8 @@ To see the validation, run "example.mlx". We employed this code to calculate spi
 **Refs:**
 
 1. Beaudette, Shawn M., et al. "On the use of a Euclidean norm function for the estimation of local dynamic stability from 3D kinematics using time-delayed Lyapunov analyses." _Medical engineering & physics_ 38.10 (2016): 1139-1145.
-2. Rosenstein, Michael T., James J. Collins, and Carlo J. De Luca. "A practical method for calculating largest Lyapunov exponents from small data sets." _Physica D: Nonlinear Phenomena_ 65.1-2 (1993): 117-134.
+2. Eskandari, Amir H, et al. "Comparative Evaluation of Different Spinal Stability Metrics." Available at SSRN 4455773.
+3. Rosenstein, Michael T., James J. Collins, and Carlo J. De Luca. "A practical method for calculating largest Lyapunov exponents from small data sets." _Physica D: Nonlinear Phenomena_ 65.1-2 (1993): 117-134.
 
 **Prerequisits:**
 
