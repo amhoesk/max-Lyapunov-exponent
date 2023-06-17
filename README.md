@@ -1,4 +1,4 @@
-﻿# Max Lyapunov Exponent (for Biomechanics)
+﻿# Max Lyapunov Exponent (Lyapunov Stability for Biomechanics)
 
 **Summary:**
 
