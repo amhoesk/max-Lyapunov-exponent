@@ -1,9 +1,14 @@
 ﻿# Max Lyapunov Exponent (for Biomechanics)
 
-Here we apply max Lyapunov exponent approach using the algorithm suggested by Rosenstein, 1993 with the modification suggested by Beaudette, 2016 to two different examples:
+**Summary:**
+
+The code computes max Lyapunov exponent approach using the algorithm suggested by Rosenstein, 1993 with the modification suggested by Beaudette, 2016 to two different examples:
 
 1. Calculating max Lyapunov exponent for recorded kinematic data of a repetitive handling task.
 2. Lorenz system.
+
+To view the validation, please execute "example.mlx". We employed this code to calculate spinal stability during repetitive lifting tasks.
+
 
 **Refs:**
 
