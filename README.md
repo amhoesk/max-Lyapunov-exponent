@@ -7,7 +7,7 @@ The code computes max Lyapunov exponent approach using the algorithm suggested b
 1. Calculating max Lyapunov exponent for recorded kinematic data of a repetitive handling task.
 2. Lorenz system.
 
-To see the validation, run "example.mlx". We employed this code to calculate spinal stability during repetitive lifting tasks.
+To see the validation, run "example.mlx". We employed this code to calculate spinal stability during repetitive lifting tasks (Eskandari et al., 2023).
 
 
 **Refs:**
@@ -22,7 +22,7 @@ To see the validation, run "example.mlx". We employed this code to calculate spi
 
 ## Repetitive lifting task
 
-Trunk rotation was extracted from the T8 segment. As the number of data samples per cycle can influence the estimate of stability, the data were resampled to obtain a mean value of 300 data samples per movement cycle (50 samples per second) while preserving the cycle-to-cycle variability in movement. The Euclidean norm transformation function was used to combine the rotation into a single time-series. Prior to normalization, T8 rotations were independently shifted to avoid the incidence of zero-crossings (Beaudette et al., 2016). In order to reconstruct the state-space of the normalized signal, a constant time delay of 30 samples (10% of the length of the average cycle) with embedding dimension of 5 was used for all trials (Granata and England, 2006).
+Trunk rotation was extracted from the T8 segment. As the number of data samples per cycle can influence the estimate of stability, the data were resampled to obtain a mean value of 300 data samples per movement cycle (50 samples per second) while preserving the cycle-to-cycle variability in movement. The Euclidean norm transformation function was used to combine the rotation into a single time-series. Prior to normalization, T8 rotations were independently shifted to avoid the incidence of zero-crossings (Beaudette et al., 2016; Eskandari et al., 2023). In order to reconstruct the state-space of the normalized signal, a constant time delay of 30 samples (10% of the length of the average cycle) with embedding dimension of 5 was used for all trials (Granata and England, 2006).
 
  **Ref:** Granata, Kevin P., and Scott A. England. "Stability of dynamic trunk movement." Spine 31.10 (2006)
 
