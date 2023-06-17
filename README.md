@@ -1,4 +1,4 @@
-﻿# Max Lyapunov Exponent
+﻿# Max Lyapunov Exponent (for Biomechanics)
 
 Here we apply max Lyapunov exponent approach using the algorithm suggested by Rosenstein, 1993 with the modification suggested by Beaudette, 2016 to two different examples:
 
