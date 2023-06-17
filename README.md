@@ -2,7 +2,7 @@
 
 **Summary:**
 
-The code computes max Lyapunov exponent approach using the algorithm suggested by Rosenstein, 1993 with the modification suggested by Beaudette, 2016 to two different examples:
+The code computes maximum Lyapunov exponent approach using the algorithm suggested by Rosenstein, 1993 with the modification suggested by Beaudette, 2016 to two different examples:
 
 1. Calculating max Lyapunov exponent for recorded kinematic data of a repetitive handling task.
 2. Lorenz system.
