@@ -28,15 +28,15 @@ Trunk rotation was extracted from the T8 segment. As the number of data samples 
 
 ![Original rotation data of thorax](README-figs/spine-org-sig.jpg "Original rotation data of thorax")
 
-### Normalizing signal using method proposed by Beaudette et al. 2016
+### Normalizing the signal
 
-Based on Beaudette, 2016, to develop a standard for the analysis of 3D dynamic kinematic waveforms, all dimensions of a 3D signal should be shifted independently to avoid the incidence of zero-crossings prior to the calculation of Euclidean norm and subsequent estimation of local dynamic stability through the use of .
+Based on Beaudette, 2016, to develop a standard for the analysis of 3D dynamic kinematic waveforms, all dimensions of a 3D signal should be shifted independently to avoid the incidence of zero-crossings prior to the calculation of Euclidean norm and subsequent estimation of local dynamic stability.
 
 ![Normalized signal](README-figs/spine-org-sig-norm.jpg "Normalized signal")
 
-### Calculating Lyapunov Exponent
+### Calculating Lyapunov exponent
 
-Short-term and long-term LyE (LyE-S, LyE-L) were identified by fitting a line through the average logarithmic divergence plot spanning over 0–0.5 and 4–10 cycles, respectively (Beaudette et al., 2016; Madinei et al., 2021). Larger exponents indicate greater sensitivity to local perturbations, with negative and positive signs corresponding to local stability and local instability, respectively.
+Short-term and long-term LyE (LyE-S, LyE-L) were identified by fitting a line through the average logarithmic divergence plot spanning over 0–0.5 and 4–10 cycles, respectively (Eskandari et al., 2023). Larger exponents indicate greater sensitivity to local perturbations, with negative and positive signs corresponding to local stability and local instability, respectively.
 
 ### Reconstructed trajectory
 
