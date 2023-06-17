@@ -20,13 +20,13 @@ Trunk rotation was extracted from the T8 segment. As the number of data samples 
 
  **Ref:** Granata, Kevin P., and Scott A. England. "Stability of dynamic trunk movement." Spine 31.10 (2006)
 
-![Original rotation data of thorax](README-figs\spine-org-sig.jpg "Original rotation data of thorax")
+![Original rotation data of thorax](README-figs/spine-org-sig.jpg "Original rotation data of thorax")
 
 ### Normalizing signal using method proposed by Beaudette et al. 2016
 
 Based on Beaudette, 2016, to develop a standard for the analysis of 3D dynamic kinematic waveforms, all dimensions of a 3D signal should be shifted independently to avoid the incidence of zero-crossings prior to the calculation of Euclidean norm and subsequent estimation of local dynamic stability through the use of .
 
-![Normalized signal](README-figs\spine-org-sig-norm.jpg "Normalized signal")
+![Normalized signal](README-figs/spine-org-sig-norm.jpg "Normalized signal")
 
 ### Calculating Lyapunov Exponent
 
@@ -34,28 +34,28 @@ Short-term and long-term LyE (LyE-S, LyE-L) were identified by fitting a line th
 
 ### Reconstructed trajectory
 
-![Normalized signal](README-figs\spine-sig-reconstructed.jpg "Normalized signal")
+![Reconstructed signal](README-figs/spine-sig-reconstructed.jpg "Reconstructed signal")
 
 ## Divergence curve
 
-![Normalized signal](README-figs\spine-convergence.jpg "Normalized signal")
+![Divergence curve](README-figs/spine-convergence.jpg "Divergence curve")
 
 ## Lorenz system
 
 ### Data generation
 
-![Normalized signal](README-figs\lorenz-org-sig.jpg "Normalized signal")
+![Original signal](README-figs/lorenz-org-sig.jpg "Original signal")
 
 ### Calculating max Lyapunov exponent based on a single state
 
 Taking the first state of the original signal.
 
-![Normalized signal](README-figs\lorenz-org-sig-x.jpg "Normalized signal")
+![x state of Lorenz system](README-figs/lorenz-org-sig-x.jpg "x state of Lorenz system")
 
 ## Reconstructed trajectory
 
-![Normalized signal](README-figs\lorenz-reconstructed.jpg "Normalized signal")
+![Reconstructed trajectory](README-figs/lorenz-reconstructed.jpg "Reconstructed trajectory")
 
 ## Divergence curve
 
-![Normalized signal](README-figs\lorenz-convergence.jpg "Normalized signal")
+![Divergence curve](README-figs/lorenz-convergence.jpg "Divergence curve")
