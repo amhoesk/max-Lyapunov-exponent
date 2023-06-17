@@ -7,7 +7,7 @@ The code computes max Lyapunov exponent approach using the algorithm suggested b
 1. Calculating max Lyapunov exponent for recorded kinematic data of a repetitive handling task.
 2. Lorenz system.
 
-To view the validation, please execute "example.mlx". We employed this code to calculate spinal stability during repetitive lifting tasks.
+To see the validation, run "example.mlx". We employed this code to calculate spinal stability during repetitive lifting tasks.
 
 
 **Refs:**
