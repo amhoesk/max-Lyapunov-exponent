@@ -41,14 +41,17 @@ Short-term and long-term LyE (LyE-S, LyE-L) were identified by fitting a line th
 ![Divergence curve](README-figs/spine-convergence.jpg "Divergence curve")
 
 ## Lorenz system
-
-### Data generation
+The following Lorenz differential equations were solved numerically using a fourth-order Runge-Kutta integration with a step size equal to 0.01. The initial point was chosen near the attractor and the transient points (5 seconds) were discarded.
+dx/dt = s(y-x)
+dy/dt = x(R-z) - y
+dz/dt = xy - bz
+The following figure shows the attractor by choosing s = 16.0, R = 45.92, b = 4.0.
 
 ![Original signal](README-figs/lorenz-org-sig.jpg "Original signal")
 
 ### Calculating max Lyapunov exponent based on a single state
 
-Taking the first state of the original signal.
+The x-coordinate time series was used to reconstruct the dynamics.
 
 ![x state of Lorenz system](README-figs/lorenz-org-sig-x.jpg "x state of Lorenz system")
 
